@@ -1,0 +1,9 @@
+meta:
+  source: app.py
+
+tasks:
+  - source: app.py
+    name: start-flask-app
+    product: null
+    clients: [panel]
+    type: script
